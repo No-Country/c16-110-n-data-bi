@@ -11,33 +11,17 @@ This repository contains a Dockerized analysis pipeline for clustering wine data
 - Credits
 
 ## Description of Dataset
-If you download the dataset, you can see that several features will be used to classify the quality of wine, many of them are chemical, so we need to have a basic understanding of such chemicals.
+The raw data set Diabetes 130-US hospitals for years 1999-2008 Data Set can be found <a src="https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+hospitals+for+years+1999-2008#">here</a>. The data set represents 10 years (1999-2008) of clinical care across 130 U.S. hospitals and integrated delivery networks. It includes more than 50 features representing patient and hospital outcomes. Information was extracted from the database for encounters that met the following criteria.
 
-- Alcohol: In wine, alcohol refers to ethanol, which is produced through the fermentation of sugars by yeast. It contributes to the body, texture, and mouthfeel of the wine, as well as its perceived sweetness and warmth.
+(1) It is a hospital encounter (a hospital admission).
 
-- Malic acid: Malic acid is one of the primary acids found in wine grapes. It contributes to the tartness and sourness of the wine. During fermentation, malic acid can be converted into lactic acid through malolactic fermentation, which can soften the acidity of the wine.
+(2) It is a diabetic encounter, that is, one during which any type of diabetes was entered into the system as a diagnosis.
 
-- Ash: Ash refers to the inorganic residue left behind after the organic matter in wine is burned off. It consists mainly of minerals such as potassium, calcium, and magnesium, which are essential for yeast metabolism and can influence wine stability and flavor.
+(3) The length of stay was at least 1 day and at most 14 days.
 
-- Ash Alkalinity: Ash alkalinity is a measure of the buffering capacity of wine, which indicates its ability to resist changes in pH when acids or bases are added. It is influenced by the presence of alkaline substances such as potassium and calcium.
+(4) Laboratory tests were performed during the meeting.
 
-- Magnesium: Magnesium is one of the minerals found in wine ash. It plays a role in yeast metabolism during fermentation and can also affect the sensory characteristics of wine.
-
-- Total Phenols: Total phenols represent the sum of all phenolic compounds present in wine, including flavonoids and non-flavonoid phenols. These compounds contribute to the color, flavor, and mouthfeel of wine, as well as its antioxidant properties.
-
-- Flavonoids: Flavonoids are a subgroup of phenolic compounds found in wine, including flavonols, flavan-3-ols, anthocyanins, and flavones. They contribute to the color, flavor, and antioxidant activity of wine.
-
-- Non-flavonoid Phenols: Non-flavonoid phenols are another subgroup of phenolic compounds found in wine, including phenolic acids, stilbenes, and tannins. They also contribute to the color, flavor, and antioxidant properties of wine.
-
-- Proanthocyanins: Proanthocyanins are a type of flavonoid found in wine, particularly in red wines, where they contribute to color stability, mouthfeel, and astringency.
-
-- Color Intensity: Color intensity refers to the depth or concentration of color in wine, which is influenced by factors such as grape variety, winemaking techniques, and aging.
-
-- HUE: HUE is a measure of the color tint or hue of wine, indicating its dominant color tones such as red, purple, or yellow.
-
-- OD280: OD280, or Optical Density at 280 nm, is a measure of the absorbance of light at a specific wavelength by phenolic compounds in wine. It is used to assess the concentration of phenolic compounds, which can indicate wine quality and aging potential.
-
-- Proline: Proline is an amino acid found in grapes and wine. It contributes to the flavor and structure of wine and is often used as an indicator of grape ripeness and fermentation conditions.
+(5) Medications were administered during the encounter. The data contains attributes such as patient number, race, sex, age, type of admission, time in hospital, medical specialty of the admitting physician, number of laboratory tests performed, HbA1c test result, diagnosis, number of medications , diabetes medications, number of outpatients. , hospitalization and emergency visits in the year before hospitalization, etc.
 
 ### Usage
 
