@@ -11,7 +11,7 @@ This repository contains a Dockerized analysis pipeline for clustering wine data
 - Credits
 
 ## Description of Dataset
-The raw data set Diabetes 130-US hospitals for years 1999-2008 Data Set can be found <a src="https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+hospitals+for+years+1999-2008#">here</a>. The data set represents 10 years (1999-2008) of clinical care across 130 U.S. hospitals and integrated delivery networks. It includes more than 50 features representing patient and hospital outcomes. Information was extracted from the database for encounters that met the following criteria.
+The raw data set Diabetes 130-US hospitals for years 1999-2008 Data Set can be found [here] (https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+hospitals+for+years+1999-2008#). The data set represents 10 years (1999-2008) of clinical care across 130 U.S. hospitals and integrated delivery networks. It includes more than 50 features representing patient and hospital outcomes. Information was extracted from the database for encounters that met the following criteria.
 
 (1) It is a hospital encounter (a hospital admission).
 
