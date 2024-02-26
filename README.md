@@ -1,4 +1,4 @@
-# <h1 align=center> **Wine type prediction using machine learning** </h1>
+# <h1 align=center> **Prediction of hospital readmission in patients with diabetes** </h1>
 
 This repository contains a Dockerized analysis pipeline for clustering wine data retrieved via an API call using Flask.
 
