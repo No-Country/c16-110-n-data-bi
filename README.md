@@ -30,24 +30,24 @@ Follow the instructions below to run the analysis pipeline:
 1. **Clone the Repository**:
 
     ```bash
-    git clone uncovering_wine_profiles
+    git clone uncovering_app_profiles
     ```
 
 2. **Build the Docker Image**:
 
     ```bash
-    docker build -t wine-clustering .
+    docker build -t app-clustering .
     ```
 
 3. **Run the Docker Container**:
 
     ```bash
-    docker run -p 5000:5000 wine-clustering
+    docker run -p 5000:5000 app-clustering
     ```
 
 ### Endpoints
 
-1. **Access Wine Data**:
+1. **Access Data**:
 
     To access raw DataFrame, copy on your browser:
     ```bash
@@ -93,14 +93,16 @@ Follow the instructions below to run the analysis pipeline:
 ### Dependencies
 
 - Flask
-- NumPy
-- Pandas
+- Numpy
+- Pandas 
 - Matplotlib
 - Seaborn
 - Scikit-learn
-- Requests
-- Docker
+- Pyarrow
+- Optuna
+- Xgboost
 
 ### Credits
 
-- This analysis pipeline was created by Moreira Rodrigo.
+- This analysis pipeline was created by Luciana Agustina Bolo, Moreira Rodrigo and Ezequiel Mazzini.
+- Dockerization by Moreira Rodrigo.
