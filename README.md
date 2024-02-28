@@ -33,14 +33,11 @@ The raw data set Diabetes 130-US hospitals for years 1999-2008 Data Set can be f
 Inside the notebook folder you will find the file notebook.ipynb where the data analysis, cleaning, insights are recorded, as well as the model tests (linear regression, decision tree and SMV) used to find the best prediction, the comparison between them and the choice of the best one for the task.
 
 We obtained the best result with the XGBoot model with optimized parameters. 
-
-The results are:
 Optimized Model:
-Accuracy:  0.6709327007116993
-F1 Score:  0.6695352892591817
+Accuracy:  0.6709327007116993.
+F1 Score:  0.6695352892591817.
 
-<span>![</span><span>XGBoost top 10 parameters</span><span>]</span>
-<span>(</span><span>https://raw.githubusercontent.com/No-Country/c16-110-n-data-bi/main/images/XGBoostfeatures.png</span><span>)</span>
+![XGBoost top 10 parameters](https://raw.githubusercontent.com/No-Country/c16-110-n-data-bi/main/images/XGBoostfeatures.png)
 
 ### Usage
 
