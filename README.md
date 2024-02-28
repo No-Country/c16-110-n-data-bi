@@ -28,7 +28,7 @@ The raw data set Diabetes 130-US hospitals for years 1999-2008 Data Set can be f
 
 (5) Medications were administered during the encounter. The data contains attributes such as patient number, race, sex, age, type of admission, time in hospital, medical specialty of the admitting physician, number of laboratory tests performed, HbA1c test result, diagnosis, number of medications , diabetes medications, number of outpatients. , hospitalization and emergency visits in the year before hospitalization, etc.
 
-## Data analysis and models testting comparisons
+### Data analysis and models testting comparisons
 
 Inside the notebook folder you will find the file notebook.ipynb where the data analysis, cleaning, insights are recorded, as well as the model tests (linear regression, decision tree and SMV) used to find the best prediction, the comparison between them and the choice of the best one for the task.
 
