@@ -37,7 +37,7 @@ Optimized Model:
 Accuracy:  0.6709327007116993.
 F1 Score:  0.6695352892591817.
 
-![XGBoost top 10 parameters](https://raw.githubusercontent.com/No-Country/c16-110-n-data-bi/main/images/XGBoostfeatures.png)
+![XGBoost top 10 parameters](./images/XGBoostfeatures.png)
 
 ### Usage
 
