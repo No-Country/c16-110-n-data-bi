@@ -193,11 +193,24 @@ def prediction(input):
     def pred_imput(input):
     
         # Remove brackets and split the string into individual elements
-        elements = input[1:-1].split(',')
+        elements = input.replace(' ', '').replace('[', '').replace(']', '').split(',')
 
-        # Convert each element to float and create the array
-        patient_data_array = np.array([float(element) for element in elements])
+        # Convert each non-empty element to float and create the array
+        patient_data_array = []
+        for element in elements:
+            if element.strip():  # Check if the element is not empty after stripping whitespace
+                try:
+                    patient_data_array.append(float(element))
+                except ValueError:
+                    pass  # Skip if conversion to float fails
+        # Convert the list to a numpy array
+        patient_data_array = np.array(patient_data_array)
 
+        if len(patient_data_array) == 0:
+            # Handle the case where no valid elements were found
+            print("No valid elements found in the input data.")
+            return None
+        
         # Reshape the array
         patient_data_reshaped = patient_data_array.reshape(1, -1)
         
@@ -207,10 +220,12 @@ def prediction(input):
     
     output = pred_imput(input)
 
-    if output[1] == 1:
-        return print('The patient will likely be readmitted to the institution.')
+    if output[0] == 1:
+        msg = 'The patient will likely be readmitted to the institution.'
+        return msg
     else:
-        return print('The patient will not be readmitted to the institution.')
+        msg = 'The patient will not be readmitted to the institution.'
+        return msg
 
 
 
