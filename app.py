@@ -212,8 +212,7 @@ def prediction(input:str):
     else:
         return print('The patient will not be readmitted to the institution.')
 
-    # Print DataFrame
-    return pred_imput(input)
+
 
 
 if __name__ == '__main__':
