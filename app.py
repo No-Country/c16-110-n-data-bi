@@ -192,8 +192,11 @@ def prediction(input:str):
     # Define function to predict imput data
     def pred_imput(input):
     
-        # Convert the Series to a NumPy array
-        patient_data_array = np.array(input)
+        # Remove brackets and split the string into individual elements
+        elements = input[1:-1].split(',')
+
+        # Convert each element to float and create the array
+        patient_data_array = np.array([float(element) for element in elements])
 
         # Reshape the array
         patient_data_reshaped = patient_data_array.reshape(1, -1)
@@ -202,9 +205,15 @@ def prediction(input:str):
         pred = best_model.predict(patient_data_reshaped)
         return pred
     
+    output = pred_imput(input)
+
+    if output[1] == 1:
+        return print('The patient will likely be readmitted to the institution.')
+    else:
+        return print('The patient will not be readmitted to the institution.')
+
     # Print DataFrame
     return pred_imput(input)
-
 
 
 if __name__ == '__main__':
