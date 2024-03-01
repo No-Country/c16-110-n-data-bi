@@ -29,8 +29,8 @@ def get_diabetes_data():
 
 
 # Flask route to display the DataFrame with clustering performed
-@app.route('/prediction/{input}')
-def prediction(input:str):
+@app.route('/prediction/<input>}')
+def prediction(input):
 
     diabetes_data = get_diabetes_data()
     

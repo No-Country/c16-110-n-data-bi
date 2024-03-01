@@ -46,19 +46,19 @@ Follow the instructions below to run the analysis pipeline:
 1. **Clone the Repository**:
 
     ```bash
-    git clone uncovering_app_profiles
+    git clone c16-110-n-data-bi
     ```
 
 2. **Build the Docker Image**:
 
     ```bash
-    docker build -t app-clustering .
+    docker build -t app-readmission .
     ```
 
 3. **Run the Docker Container**:
 
     ```bash
-    docker run -p 5000:5000 app-clustering
+    docker run -p 5000:5000 app-readmission
     ```
 
 ### Endpoints
@@ -67,35 +67,16 @@ Follow the instructions below to run the analysis pipeline:
 
     To access raw DataFrame, copy on your browser:
     ```bash
-    127.0.0.1:5000/wine-data
+    127.0.0.1:5000/diabetes-data
     ```
 
-2. **Access Clustering DataFrame Results**:
+2. **Access Prediction Result**:
 
     To access DataFrame with the type of wine identified, copy on your browser:
     ```bash
-    127.0.0.1:5000/clustering
+    127.0.0.1:5000/prediction/{input}
     ```
 
-3. **Access Elbow Method Visual**:
-
-    To access Elbow Method visual to identify the optimal number of cluster, copy on your browser:
-    ```bash
-    127.0.0.1:5000/elbow-method
-    ```
-
-4. **Access Clustering Visual Before PCA**:
-
-    To access Clustering Visual Before PCA, copy on your browser:
-    ```bash
-    127.0.0.1:5000/visual-before-pca
-    ```
-5. **Access Clustering Visual After PCA**:
-
-    To access Clustering Visual After PCA, copy on your browser:
-    ```bash
-    127.0.0.1:5000/visual-after-pca
-    ```
 
 ### Files
 
@@ -103,7 +84,7 @@ Follow the instructions below to run the analysis pipeline:
 - `templates`: Contains HTML template for the endpoints.
 - `Dockerfile`: Contains instructions for building the Docker image.
 - `requirements.txt`: Lists the dependencies required for the analysis.
-- `app.py`: Flask API for serving the wine dataset.
+- `app.py`: Flask API for serving the diabetes dataset.
 - `README.md`: Instructions for running the analysis pipeline.
 
 ### Dependencies
