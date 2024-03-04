@@ -34,8 +34,8 @@ Inside the notebook folder you will find the file notebook.ipynb where the data 
 
 We obtained the best result with the XGBoot model with optimized parameters. 
 Optimized Model:
-Accuracy:  0.6709327007116993.
-F1 Score:  0.6695352892591817.
+Accuracy:  0.6709327007116993
+F1 Score:  0.6695352892591817
 
 ![XGBoost top 10 parameters](./images/XGBoostfeatures.png)
 
