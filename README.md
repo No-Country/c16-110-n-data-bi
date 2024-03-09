@@ -101,4 +101,4 @@ Follow the instructions below to run the analysis pipeline:
 
 ### Credits
 
-- This analysis pipeline was created by: Luciana Agustina Bolo ([LinkedIn](https://www.linkedin.com/in/agustina-bolo/)), Moreira Rodrigo- Jane Smith ([LinkedIn](https://www.linkedin.com/in/rcmoreg/)) and Ezequiel Mazzini([LinkedIn](https://www.linkedin.com/in/ezequiel-mazzini/)).
+- This analysis pipeline was created by: Luciana Agustina Bolo ([LinkedIn](https://www.linkedin.com/in/agustina-bolo/)), Moreira Rodrigo ([LinkedIn](https://www.linkedin.com/in/rcmoreg/)) and Ezequiel Mazzini([LinkedIn](https://www.linkedin.com/in/ezequiel-mazzini/)).
